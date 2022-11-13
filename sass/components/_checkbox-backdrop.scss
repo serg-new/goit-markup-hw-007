@@ -6,22 +6,18 @@
     border-radius: 4px;
     margin-left: 7px;
 }
-
 .checkbox__input {
 
     appearance: none;
 
 
 }
-
-
 .checkbox__terms {
     position: absolute;
     top: 0;
 
 
 }
-
 .checkbox__icon {
     position: absolute;
     width: 16px;
@@ -32,18 +28,15 @@
 
 
 }
-
 .checkbox__check {
     width: 100%;
 
 
 }
-
 .checkbox__form-accent {
     color: var(--accent-text-color);
     text-decoration: inherit;
 }
-
 .checkbox__form-text {
     text-indent: 25px;
     letter-spacing: 0.03em;
@@ -61,8 +54,6 @@
 
 
 }
-
-
 .form__button {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -82,9 +73,10 @@
     margin-top: 45px;
 
 
-}
 
-.form__button:hover,
-.form__button:focus {
+
+        &:hover,
+        &:focus {
     background-color: #1976d2;
+        }
 }

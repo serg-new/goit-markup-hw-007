@@ -1,8 +1,6 @@
 .social {
     margin-left: 70px;
 }
-
-
 .social__title {
     padding-top: 0px;
     margin-bottom: 0;
@@ -26,9 +24,6 @@
     padding-bottom: 30px;
     gap: 10px;
 }
-
-
-
 .social__link {
     display: flex;
     width: 44px;
@@ -43,6 +38,11 @@
     transition-duration: 250ms;
     transition-timing-function: var(--time);
 
+    &:hover,
+    &:focus {
+    background-color: var(--accent-text-color);
+}
+
 }
 
 .social__icon {
@@ -50,7 +50,3 @@
 
 }
 
-.social__link:hover,
-.social__link:focus {
-    background-color: var(--accent-text-color);
-}

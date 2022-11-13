@@ -17,9 +17,9 @@
     line-height: 1.55;
     letter-spacing: 0.03em;
 
+    .progect:hover & {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
-.progect:hover .project__invisible-text {
-    transform: translateY(0);
-    opacity: 1;
-}

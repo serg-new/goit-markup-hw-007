@@ -19,6 +19,12 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: var(--time);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-text-color);
+    color: var(--hero-text-color);
+}
 }
 
 .soc__icon {
@@ -33,8 +39,3 @@
     fill: currentColor;
 }
 
-.soc__link:hover,
-.soc__link:focus {
-    background-color: var(--accent-text-color);
-    color: var(--hero-text-color);
-}

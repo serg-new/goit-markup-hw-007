@@ -2,7 +2,6 @@
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .partners__title {
     padding-top: 0px;
     margin-bottom: 50px;
@@ -15,9 +14,6 @@
     text-align: center;
     letter-spacing: 0.03em;
 }
-
-
-
 .partners__list {
     display: flex;
     gap: 30px;
@@ -48,14 +44,15 @@
     transition-duration: 250ms;
     transition-timing-function: var(--time);
 
+    &:hover,
+    &:focus {
+    border-color: var(--accent-text-color);
+    color: var(--accent-text-color);
+}
+
 }
 
 .partners__icon {
     fill: currentColor;
 }
 
-.partners__link:hover,
-.partners__link:focus {
-    border-color: var(--accent-text-color);
-    color: var(--accent-text-color);
-}

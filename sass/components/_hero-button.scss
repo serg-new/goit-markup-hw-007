@@ -24,15 +24,16 @@
     padding: 10px 32px;
     border-radius: 4px;
     border: none;
-
+    
+    
+    &:hover,
+    &:focus {
+        color: var(--hero-text-color);
+        background-color: var(--button-focus);
+    
+    
+    
+    }
 
 }
 
-.hero__button:hover,
-.hero__button:focus {
-    color: var(--hero-text-color);
-    background-color: var(--button-focus);
-
-
-
-}
